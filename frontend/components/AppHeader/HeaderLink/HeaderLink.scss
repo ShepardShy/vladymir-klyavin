@@ -1,0 +1,13 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+header {
+    .header__link {
+        color: variables.$color-white;
+        @include mixins.textOptions(16px, 600, 20px);
+
+        &.header__link_active, &:hover {
+            color: variables.$color-orange;
+        }
+    }
+}

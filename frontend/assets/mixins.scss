@@ -1,0 +1,56 @@
+// Опции текста
+@mixin textOptions($font-size, $font-weight, $line-height) {
+    line-height: $line-height;
+
+    font: {
+        weight: $font-weight;
+        size:  $font-size;
+    }
+}
+
+// Опции изображения
+@mixin imageResolutionOptions($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+// Опции изображения
+@mixin imagePositionOptions($top, $left) {
+    top: $top;
+    left: $left;
+}
+
+// Опции кнопки
+@mixin buttonOptions($width, $height, $padding) {
+    width: $width;
+    height: $height;
+    padding: $padding;
+}
+
+// Центрирование гридов по осям Х и У
+@mixin gridCenter() {
+    display: grid;
+    place-items: center;
+}
+
+// Центрирование флекса по оси У
+@mixin flexYcenter() {
+    display: flex;
+    align-items: center;
+}
+
+// Свойства бордера
+@mixin borderOptions($width, $style, $color, $radius) {
+    border: {
+        width: $width;
+        style: $style;
+        color: $color;
+        radius: $radius;
+    }
+}
+
+// Свойства бордера и текста внутри него
+@mixin borderText($color, $border) {
+    color: $color;
+    border: $border;
+}

@@ -1,0 +1,14 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+footer {
+    padding: 35px 0px 30px;
+    color: variables.$color-white;
+    background: variables.$color-black;
+    border-top: 1px solid variables.$color-white;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

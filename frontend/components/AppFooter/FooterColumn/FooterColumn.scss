@@ -1,0 +1,19 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.footer-column {
+    &:nth-child(3) {
+        .footer-column__list {
+            grid-template-columns: repeat(2, 200px);
+        }
+    }
+}
+.footer-column__title {
+    margin-bottom: 35px;
+    @include mixins.textOptions(24px, 600, 29px);
+}
+.footer-column__list {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-gap: 20px;
+}

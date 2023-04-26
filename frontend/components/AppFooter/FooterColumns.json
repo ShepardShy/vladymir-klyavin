@@ -1,0 +1,68 @@
+[
+    {
+        "id": 0,
+        "title": "Сотрудничество",
+        "links": [
+            {
+                "id": 0,
+                "icon": "/icons/letter.svg",
+                "src": "mailto:pr_time@list.ru",
+                "title": "pr_time@list.ru" 
+            }
+        ] 
+    },
+    {
+        "id": 1,
+        "title": "Слушать",
+        "links": [
+            {
+                "id": 0,
+                "icon": "/icons/sound_cloud.svg",
+                "src": "https://soundcloud.com/8qnxrbmsnova?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+                "title": "Sound Cloud" 
+            },
+            {
+                "id": 1,
+                "icon": "/icons/yandex_music.svg",
+                "src": "https://music.yandex.by/artist/9661420/info",
+                "title": "Яндекс Музыка" 
+            }
+        ] 
+    },
+    {
+            "id": 2,
+            "title": "Подписаться",
+            "links": [
+                {
+                    "id": 0,
+                    "icon": "/icons/tik_tok.svg",
+                    "src": "https://www.tiktok.com/@vofan_music",
+                    "title": "TikTok" 
+                },
+                {
+                    "id": 1,
+                    "icon": "/icons/telegram.svg",
+                    "src": "https://t.me/vofan_music",
+                    "title": "Telegram" 
+                },
+                {
+                    "id": 2,
+                    "icon": "/icons/inst.svg",
+                    "src": "https://www.instagram.com/vofan_music/",
+                    "title": "Instagram" 
+                },
+                {
+                    "id": 3,
+                    "icon": "/icons/youtube_live.svg",
+                    "src": "https://www.youtube.com/channel/UCR-SFupxIM8jMJ2i1MhXQvQ",
+                    "title": "YouTube Live" 
+                },
+                {
+                    "id": 4,
+                    "icon": "/icons/vk.svg",
+                    "src": "https://vk.com/vofan_musik",
+                    "title": "Вконтакте" 
+                }
+            ] 
+    }
+]

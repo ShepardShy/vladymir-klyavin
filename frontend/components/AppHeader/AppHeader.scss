@@ -1,0 +1,19 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+header {
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+    position: fixed;
+    background: variables.$color-black;
+
+    .container {
+        padding: 15px 20px;
+        width: 100%;
+
+        gap: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

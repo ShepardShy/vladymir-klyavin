@@ -1,0 +1,47 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.form__item {
+    display: grid;
+}
+
+select, input {
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background: inherit;
+    @include mixins.textOptions(18px, 300, 100.4%);
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+.form__item_light {
+    label {
+        color: variables.$color-white;
+    }
+
+    select, input {
+        @include mixins.borderText(variables.$color-white, 1px solid variables.$color-white);
+        
+        option {
+            color: variables.$color-black;
+        }
+    }
+}
+
+.form__item_dark {
+    label {
+        color: variables.$color-black;
+    }
+
+    select, input {
+        @include mixins.borderText(variables.$color-black, 1px solid variables.$color-black);
+        
+        option {
+            color: variables.$color-white;
+        }  
+    }
+}

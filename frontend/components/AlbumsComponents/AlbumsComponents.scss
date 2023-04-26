@@ -1,0 +1,33 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.albums {
+    color: variables.$color-white;
+}
+
+.albums__header {
+    padding-top: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.albums__list {
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 40px 125px;
+    grid-template-columns: repeat(3, 1fr);
+
+    &:last-child {
+        margin-bottom: 50px;
+    }
+}
+
+.albums__title {
+    font-family: Ustroke;
+    width: 100%;
+    grid-column: 1/4;
+    padding-bottom: 10px;
+    @include mixins.textOptions(26px, 400, 26px);
+    border-bottom: 1px solid variables.$color-white;;
+}

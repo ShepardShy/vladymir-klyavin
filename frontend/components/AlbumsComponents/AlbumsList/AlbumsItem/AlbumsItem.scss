@@ -1,0 +1,24 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.album {
+    display: grid;
+    grid-gap: 5px 20px;
+    grid: 20px 1fr 40px / 160px 1fr;
+}
+.album__subtitle {
+    @include mixins.textOptions(14px, 400, 17px);
+}
+.album__title {
+    @include mixins.textOptions(22px, 500, 27px);
+}
+.album__image {
+    grid-row: 1/4;
+    height: 160px;
+    overflow: hidden;
+    @include mixins.borderOptions(1px, solid, variables.$color-white, 8px)
+}
+
+.button-link.album__button {
+    line-height: 1px;
+}

@@ -1,0 +1,7 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+h3 {
+    margin-bottom: 30px;
+    @include mixins.textOptions(30px, 400, 30px);
+}

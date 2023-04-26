@@ -1,0 +1,38 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+button {
+    transition: 0.8s;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-clip: text, padding-box;
+    -webkit-background-clip: text, padding-box;
+    @include mixins.gridCenter();
+    @include mixins.textOptions(20px, 400, 32px);
+    background:
+        linear-gradient(-45deg, variables.$color-white 40%, variables.$color-orange 0 60%, variables.$color-white 0) right/300% 100% no-repeat,
+        linear-gradient(-45deg, variables.$color-black 40%, variables.$color-white 0 60%, variables.$color-black 0) right/300% 100% no-repeat;
+
+    &.button_dark:hover, &.button_light:hover{
+        background-position: left;
+        @include mixins.borderText(variables.$color-orange, 1px solid variables.$color-orange)
+    }
+
+    &.button_dark {
+        @include mixins.borderText(variables.$color-black, 1px solid variables.$color-black)
+
+    }
+
+    &.button_light {
+        @include mixins.borderText(variables.$color-white, 1px solid variables.$color-white);
+
+        background: 
+            linear-gradient(-45deg, variables.$color-black 40%, variables.$color-orange 0 60%, variables.$color-black 0) right/300% 100% no-repeat, 
+            linear-gradient(-45deg, variables.$color-black 40%, variables.$color-black 0 60%, variables.$color-black 0) right/300% 100% no-repeat;
+    }
+
+    &.button_orange {
+        background: variables.$color-orange;
+        color: variables.$color-white;
+    }
+}

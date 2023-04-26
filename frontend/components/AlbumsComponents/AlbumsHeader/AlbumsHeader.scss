@@ -1,0 +1,30 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.albums__header {
+    .album__filter {
+        gap: 10px;
+        display: flex;
+        @include mixins.textOptions(17px, 500, 21px);
+    }
+
+    .filter__item {
+        cursor: pointer;
+    }
+
+    .filter__item_active {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        color: variables.$color-orange;
+
+        &::before {
+            content: '';
+            bottom: -2px;
+            position: absolute;
+            background: variables.$color-orange;
+            @include mixins.imageResolutionOptions(80%, 1.5px)
+        }
+    }
+}
+

@@ -1,0 +1,129 @@
+/*Обнуление*/
+*,
+b::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s all;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Ustroke;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #000;
+    font-family: Montserrat;
+    background-color: #000;
+    
+    /* scrollbar для Chrome/Edge/Safari */
+    &::-webkit-scrollbar {
+        height: 8px;
+        width: 8px;
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #31313C;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #F95810;
+        border-radius: 5px;
+        border: 2px solid #F95810;
+    }
+}
+
+#app {
+    height: 100%;
+}
+
+#__nuxt {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+
+    .wrapper {
+        display: grid;
+        grid-template-rows: 1fr;
+
+        & > div {
+            display: grid;
+            grid-template-rows: 1fr;
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+/*Класс для того, чтобы не было скролла по иксу */
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    /*Пишется max-width*/
+    max-width: 1500px;
+    margin: 0 auto;
+    /*Избегание прилипания к краю*/
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+/*фоновое изображение*/
+.ibg {
+    position: relative;
+}
+
+.ibg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.svg__matrix {
+    display: none;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.main-page {
+    background: #fafafa;
+}
