@@ -1,0 +1,49 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.quantity {
+    color: variables.$color-white;
+    grid-column: 1/4;
+}
+.quantity__title {
+    margin-bottom: 10px;
+    @include mixins.textOptions(18px, 400, 100.4%);
+}
+.quantity__actions {
+    width: 110px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity-action {
+    cursor: pointer;
+}
+
+.quantity-actions__minus {
+    &::before {
+        content: url('/market/icons/minus.svg');
+    }
+}
+.quantity-actions__value {
+    background: none;
+    text-align: center;   
+    color: variables.$color-white;
+    @include mixins.textOptions(20px, 500, 100.4%);
+}
+
+.quantity-actions__plus {
+    &::before {
+        content: url('/market/icons/plus.svg');
+    }
+}
+
+.quantity__info {
+    @include mixins.textOptions(18px, 300, 100.4%);
+    color: variables.$color-white;
+
+    span {
+        font-weight: 500;
+    }
+}

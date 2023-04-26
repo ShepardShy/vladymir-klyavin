@@ -1,0 +1,30 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+section.presentation {
+    position: relative;
+
+    .container {
+        height: 895px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    h1 {
+        width: 30%;
+        z-index: 2;
+        text-align: center;
+        @include mixins.textOptions(80px, 400, 143.8%);
+    }
+}
+
+.presentation__img {
+    position: absolute;
+    @include mixins.imagePositionOptions(0px, 0px);
+    @include mixins.imageResolutionOptions(90%, 100%);
+    
+    img {
+        width: 90%;
+    }
+}

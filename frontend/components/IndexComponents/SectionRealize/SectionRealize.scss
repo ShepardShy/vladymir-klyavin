@@ -1,0 +1,55 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.realize {
+    .container {
+        height: 550px;
+        padding-top: 250px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+            margin-bottom: 50px;
+        }
+    }
+
+    .swiper {
+        @include mixins.imageResolutionOptions(1350px, 460px);
+    }
+    
+    .swiper-wrapper {
+        gap: 45px !important;
+        display: flex !important;
+        width: 1250px !important;
+        margin: 0px 50px !important;
+    }
+    
+    .swiper-slide {
+        margin-right: 0px !important;
+    }
+    
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: var(--swiper-navigation-sides-offset,0px) !important;
+    }
+    
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: var(--swiper-navigation-sides-offset,0px) !important;
+    }
+    
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: var(--swiper-pagination-bottom,0px);
+    }
+
+    .swiper-pagination-bullet {
+        background: var(--swiper-pagination-bullet-inactive-color,#fff);
+        width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,15px));
+        height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,15px));
+    }
+}
+
+.realize__img {
+    @include mixins.imageResolutionOptions(280px, 410px);
+    @include mixins.borderOptions(1px, solid, variables.$color-white, 4px)
+}

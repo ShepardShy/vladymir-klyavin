@@ -1,0 +1,46 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.cart {
+    margin-bottom: 200px;
+}
+
+.cart__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 50px;
+
+    .cart__actions {
+        gap: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .cart__button {
+        font-size: 20px;
+        border-width: 1px;
+        padding: 5px 45px;
+
+        &.button_light:hover {
+            border-width: 1px;
+        }
+    }
+
+    .cart__basket {
+        @include mixins.imageResolutionOptions(45px, 35px);
+
+        figcaption {
+            top: -10px;
+            z-index: 2;
+            right: -10px;
+            position: absolute;
+            border-radius: 50%;
+            color: variables.$color-white;
+            background: variables.$color-red;
+
+            @include mixins.gridCenter();
+            @include mixins.imageResolutionOptions(20px, 20px);
+            @include mixins.textOptions(14px, 400, 16px);
+        }
+    }
+}

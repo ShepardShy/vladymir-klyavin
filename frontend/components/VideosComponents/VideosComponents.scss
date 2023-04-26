@@ -1,0 +1,18 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.videos__header {
+    padding: 80px 0px 50px;
+}
+
+.videos__list {
+    display: grid;
+    grid-gap: 50px 0px;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-bottom: 50px;
+
+    .videos__title {
+        color: variables.$color-white;
+    }
+}

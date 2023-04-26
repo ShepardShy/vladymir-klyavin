@@ -1,0 +1,26 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.song__title {
+    color: variables.$color-white;
+}
+
+.song__video {
+    .videos__title {
+        display: none;
+    }
+}
+
+
+.song__text {
+    white-space: pre;
+    width: 600px;
+
+    p {
+        line-height: 100%;
+
+       &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}

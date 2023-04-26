@@ -1,0 +1,35 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.chords__header {
+    padding: 80px 0px 50px;
+}
+
+.chords__main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+.chords__item {
+    list-style-type: decimal;
+    color: variables.$color-white;
+    @include mixins.textOptions(20px, 500, 140%);
+
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    a {
+        width: 100%;
+        display: flex;
+        color: variables.$color-white;
+    }
+
+    &:hover {
+        color: variables.$color-orange;
+        
+        a {
+            color: variables.$color-orange;
+        }
+    }
+}

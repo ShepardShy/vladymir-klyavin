@@ -1,0 +1,27 @@
+[
+    {
+        "title": "TikTok",
+        "icon": "/icons/tik_tok.svg",
+        "src": "https://www.tiktok.com/@vofan_music"
+    },
+    {
+        "title": "Telegram",
+        "icon": "/icons/telegram.svg",
+        "src": "https://t.me/vofan_music"
+    },
+    {
+        "title": "Instagram",
+        "icon": "/icons/inst.svg",
+        "src": "https://www.instagram.com/vofan_music/"
+    },
+    {
+        "title": "YouTube Live",
+        "icon": "/icons/youtube_live.svg",
+        "src": "https://www.youtube.com/channel/UCR-SFupxIM8jMJ2i1MhXQvQ"
+    },
+    {
+        "title": "Вконтакте",
+        "icon": "/icons/vk.svg",
+        "src": "https://vk.com/vofan_musik"
+    }
+]

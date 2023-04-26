@@ -1,0 +1,14 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.order__form-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+
+    button.button_orange {
+        height: 43px;
+        line-height: 1px;
+        align-self: end;
+    }
+}

@@ -1,0 +1,21 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.chords_dynamic {
+    .chords__header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .chords__button {
+            width: 200px;
+        }
+    }
+
+    .chords__content {
+        gap: 200px;
+        display: flex;
+        margin-bottom: 50px;
+        color: variables.$color-white;
+    }
+}

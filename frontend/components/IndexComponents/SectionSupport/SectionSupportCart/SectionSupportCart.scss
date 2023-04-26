@@ -1,0 +1,18 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.support-cart {
+    padding: 25px;
+    color: variables.$color-white;
+    @include mixins.textOptions(24px, 400, 140%);
+    @include mixins.borderOptions(1px, solid, variables.$color-white, 8px);
+
+    & > *:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+.support-cart__number {
+    gap: 45px;
+    display: flex;
+}

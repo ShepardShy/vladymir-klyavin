@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "title": "Dm",
+        "img": "/chords/Dm.png"
+    },
+    {
+        "id": 1,
+        "title": "Bb",
+        "img": "/chords/Bb.png"
+    },
+    {
+        "id": 2,
+        "title": "A",
+        "img": "/chords/A.png"
+    },
+    {
+        "id": 3,
+        "title": "Gm",
+        "img": "/chords/Gm.png"
+    }
+]

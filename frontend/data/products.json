@@ -1,0 +1,446 @@
+[
+    {
+        "id": 0,
+        "type": "Футболка",
+        "title": "Про нас никто не вспомнит",
+        "description": "<p> Футболка с изображением строчки из песни «Никто не вспомнит». Состав: хлопок 95%, лайкра 5%. </p> <p> Этот товар имеет уникальную размерную сетку. Перед заказом убедительно просим Вас свериться с этой сеткой размеров и понять, какой размер Вам подходит. Размерная сетка представлена в картинках товара. </p> ",
+        "cost": 2000,
+        "img": "/market/short.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "S"
+                    },
+                    {
+                        "id": 1,
+                        "value": "XS"
+                    },
+                    {
+                        "id": 2,
+                        "value": "L"
+                    },
+                    {
+                        "id": 3,
+                        "value": "XXL"
+                    },
+                    {
+                        "id": 4,
+                        "value": "XXXL"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Цвет",
+                "typeComponent": "select",
+                "objectTitle": "color",
+                "value": "",
+                "options": [
+                    {
+                        "id": 5,
+                        "value": "Белый"
+                    },
+                    {
+                        "id": 6,
+                        "value": "Черный"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Зеленый"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Серый"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Желтый"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "type": "Акксесуар",
+        "title": "Флешка FULL ANTHOLOGY 2R2R",
+        "description": "",
+        "cost": 1500,
+        "img": "/market/akksessuar.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "1 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "8 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "16 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "32 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "64 ГБ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Футболка",
+        "title": "Про нас никто не вспомнит",
+        "description": "<p> Футболка с изображением строчки из песни «Никто не вспомнит». Состав: хлопок 95%, лайкра 5%. </p> <p> Этот товар имеет уникальную размерную сетку. Перед заказом убедительно просим Вас свериться с этой сеткой размеров и понять, какой размер Вам подходит. Размерная сетка представлена в картинках товара. </p> ",
+        "cost": 2000,
+        "img": "/market/short.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "S"
+                    },
+                    {
+                        "id": 1,
+                        "value": "XS"
+                    },
+                    {
+                        "id": 2,
+                        "value": "L"
+                    },
+                    {
+                        "id": 3,
+                        "value": "XXL"
+                    },
+                    {
+                        "id": 4,
+                        "value": "XXXL"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Цвет",
+                "typeComponent": "select",
+                "objectTitle": "color",
+                "value": "",
+                "options": [
+                    {
+                        "id": 5,
+                        "value": "Белый"
+                    },
+                    {
+                        "id": 6,
+                        "value": "Черный"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Зеленый"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Серый"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Желтый"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "Акксесуар",
+        "title": "Флешка FULL ANTHOLOGY 2R2R",
+        "description": "",
+        "cost": 1500,
+        "img": "/market/akksessuar.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "1 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "8 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "16 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "32 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "64 ГБ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "Футболка",
+        "title": "Про нас никто не вспомнит",
+        "description": "<p> Футболка с изображением строчки из песни «Никто не вспомнит». Состав: хлопок 95%, лайкра 5%. </p> <p> Этот товар имеет уникальную размерную сетку. Перед заказом убедительно просим Вас свериться с этой сеткой размеров и понять, какой размер Вам подходит. Размерная сетка представлена в картинках товара. </p> ",
+        "cost": 2000,
+        "img": "/market/short.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "S"
+                    },
+                    {
+                        "id": 1,
+                        "value": "XS"
+                    },
+                    {
+                        "id": 2,
+                        "value": "L"
+                    },
+                    {
+                        "id": 3,
+                        "value": "XXL"
+                    },
+                    {
+                        "id": 4,
+                        "value": "XXXL"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Цвет",
+                "typeComponent": "select",
+                "objectTitle": "color",
+                "value": "",
+                "options": [
+                    {
+                        "id": 5,
+                        "value": "Белый"
+                    },
+                    {
+                        "id": 6,
+                        "value": "Черный"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Зеленый"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Серый"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Желтый"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Акксесуар",
+        "title": "Флешка FULL ANTHOLOGY 2R2R",
+        "description": "",
+        "cost": 1500,
+        "img": "/market/akksessuar.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "1 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "8 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "16 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "32 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "64 ГБ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "Футболка",
+        "title": "Про нас никто не вспомнит",
+        "description": "<p> Футболка с изображением строчки из песни «Никто не вспомнит». Состав: хлопок 95%, лайкра 5%. </p> <p> Этот товар имеет уникальную размерную сетку. Перед заказом убедительно просим Вас свериться с этой сеткой размеров и понять, какой размер Вам подходит. Размерная сетка представлена в картинках товара. </p> ",
+        "cost": 2000,
+        "img": "/market/short.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "S"
+                    },
+                    {
+                        "id": 1,
+                        "value": "XS"
+                    },
+                    {
+                        "id": 2,
+                        "value": "L"
+                    },
+                    {
+                        "id": 3,
+                        "value": "XXL"
+                    },
+                    {
+                        "id": 4,
+                        "value": "XXXL"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Цвет",
+                "typeComponent": "select",
+                "objectTitle": "color",
+                "value": "",
+                "options": [
+                    {
+                        "id": 5,
+                        "value": "Белый"
+                    },
+                    {
+                        "id": 6,
+                        "value": "Черный"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Зеленый"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Серый"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Желтый"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "Акксесуар",
+        "title": "Флешка FULL ANTHOLOGY 2R2R",
+        "description": "",
+        "cost": 1500,
+        "img": "/market/akksessuar.png",
+        "count": 10,
+        "summary": 1,
+        "settings": [
+            {
+                "id": 0,
+                "title": "Размер",
+                "typeComponent": "select",
+                "objectTitle": "size",
+                "value": "",
+                "options": [
+                    {
+                        "id": 0,
+                        "value": "1 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "8 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "16 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "32 ГБ"
+                    },
+                    {
+                        "id": 0,
+                        "value": "64 ГБ"
+                    }
+                ]
+            }
+        ]
+    }
+]

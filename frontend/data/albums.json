@@ -1,0 +1,104 @@
+[
+    {
+        "id": 0,
+        "title": "2022",
+        "list": [
+            {
+                "type": "Альбом",
+                "img": "/albums/chernaya-polosa.jpg",
+                "title": "Черная полоса",
+                "link": "/"
+            },
+            {
+                "type": "Сингл",
+                "img": "/albums/mechtat.jpg",
+                "title": "Мечтать",
+                "link": "/"
+            },
+            {
+                "type": "Сингл",
+                "img": "/albums/ya-odin-gulyau.jpg",
+                "title": "Я один гуляю",
+                "link": "/"
+            },
+            {
+                "type": "Альбом",
+                "img": "/albums/22-44.jpg",
+                "title": "22:44",
+                "link": "/"
+            },
+            {
+                "type": "Сингл",
+                "img": "/albums/chernovichok.jpg",
+                "title": "Черновичок",
+                "link": "/"
+            },
+            {
+                "type": "Сингл",
+                "img": "/albums/s-chistogo-lista.jpg",
+                "title": "С чистого листа",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "2021",
+        "list": [
+            {
+                "type": "Сингл",
+                "img": "/albums/net-nikogo.jpg",
+                "title": "Нет никого",
+                "link": "/"
+            },
+            {
+                "type": "Альбом",
+                "img": "/albums/svetliy-mir.jpg",
+                "title": "Светлый мир",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Неизданное",
+        "list": [
+            {
+                "type": "Неизданное",
+                "img": "/albums/chernaya-polosa.jpg",
+                "title": "Черная полоса",
+                "link": "/"
+            },
+            {
+                "type": "Неизданное",
+                "img": "/albums/mechtat.jpg",
+                "title": "Мечтать",
+                "link": "/"
+            },
+            {
+                "type": "Неизданное",
+                "img": "/albums/ya-odin-gulyau.jpg",
+                "title": "Я один гуляю",
+                "link": "/"
+            },
+            {
+                "type": "Неизданное",
+                "img": "/albums/22-44.jpg",
+                "title": "22:44",
+                "link": "/"
+            },
+            {
+                "type": "Неизданное",
+                "img": "/albums/chernovichok.jpg",
+                "title": "Черновичок",
+                "link": "/"
+            },
+            {
+                "type": "Неизданное",
+                "img": "/albums/s-chistogo-lista.jpg",
+                "title": "С чистого листа",
+                "link": "/"
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.market__list {
+    .product {
+        color: variables.$color-white;
+    
+        &:hover {
+            .product__image {
+                transform: scale(1.05);
+            }
+        }
+    }
+    
+    .product__image {
+        height: 225px;
+        transition: 0.2s;
+        margin-bottom: 15px;
+    
+        img {
+            object-fit: contain;
+        }
+    }
+    
+    .product__type {
+        margin-bottom: 5px;
+        text-align: center;
+        color: variables.$color-grey;
+        @include mixins.textOptions(16px, 400, 130%);
+    }
+    
+    .product__title {
+        text-align: center;
+        margin-bottom: 15px;
+        @include mixins.textOptions(16px, 500, 130%);
+    }
+    
+    .product__cost {
+        @include mixins.textOptions(24px, 600, 29px);
+
+        text-align: center;
+    }
+}

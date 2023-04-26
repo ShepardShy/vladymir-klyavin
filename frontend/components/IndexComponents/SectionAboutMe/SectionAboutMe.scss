@@ -1,0 +1,18 @@
+.about {
+    height: 850px;
+
+    .container {
+        display: grid;
+        grid-gap: 255px;
+        grid-template-columns: 645px 570px;
+
+        height: 100%;
+        padding-top: 100px;
+        align-content: center;
+    }
+}
+
+.about__img {
+    height: 520px;
+    margin-top: 50px;
+}

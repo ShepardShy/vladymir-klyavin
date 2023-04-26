@@ -1,0 +1,19 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.support__donats {
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.support__link {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    @include mixins.textOptions(20px, 400, 29px);
+}
+
+.support__icon {
+    @include mixins.imageResolutionOptions(30px, 30px)
+}

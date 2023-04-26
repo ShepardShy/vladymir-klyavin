@@ -1,0 +1,22 @@
+.main-page {
+    .news {
+        margin-bottom: 0px;
+        
+        .container {
+            height: 915px;
+            padding-top: 300px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .news__list {
+            display: grid;
+
+            .button-link {
+                font-size: 26px;
+            }
+        }
+    }
+}

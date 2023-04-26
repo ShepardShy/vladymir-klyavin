@@ -1,0 +1,24 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.streams {
+    .container {
+        height: 780px;
+        display: grid;
+        align-content: end;
+        grid-template-columns: 575px 1fr;
+    }
+
+    .streams__text {
+        margin-bottom: 50px;
+        @include mixins.textOptions(24px, 400, 140%);
+    }
+}
+
+.streams__info {
+    margin-top: 80px;
+}
+
+.streams__img {
+    @include mixins.imageResolutionOptions(1050px, 600px)
+}

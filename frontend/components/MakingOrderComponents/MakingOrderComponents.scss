@@ -1,0 +1,16 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.order {
+    margin-bottom: 150px;
+}
+
+.order__header {
+    padding: 80px 0px 50px;
+}
+
+.order__subtitle {
+    @include mixins.textOptions(30px, 400, 140%);
+    margin-bottom: 30px;
+    color: variables.$color-white;
+}

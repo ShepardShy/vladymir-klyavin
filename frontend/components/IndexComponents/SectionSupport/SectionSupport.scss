@@ -1,0 +1,39 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+section.support {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        height: 550px;
+        overflow: hidden;
+        padding: 160px 0px 100px;
+    }
+
+    &::before {
+        content: '';
+    }
+}
+
+.support__info {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    & > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    .support__image {
+        z-index: 1;
+        top: -320px;
+        right: -110px;
+        position: absolute;
+
+        @include mixins.imageResolutionOptions(1200px, 700px)
+    }
+}
+

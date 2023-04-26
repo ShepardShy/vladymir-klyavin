@@ -1,0 +1,14 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.product__options {
+    margin-top: 20px;
+}
+
+.product__option {
+    @include mixins.textOptions(16px, 400, 100.4%);
+
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}

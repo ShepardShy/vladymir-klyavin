@@ -1,0 +1,7 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.order__information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

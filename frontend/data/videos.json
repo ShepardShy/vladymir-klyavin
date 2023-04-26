@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "priority": 0,
+        "title": "И вновь листаю видео... Владимир Клявин.",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/0LBrSVJuzto' title='И вновь листаю видео... Владимир Клявин.' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 1,
+        "priority": 0,
+        "title": "Черновичок. Разбор на гитаре. Владимир Клявин",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/X-khyq42gjU' title='Черновичок. Разбор на гитаре. Владимир Клявин' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 2,
+        "priority": 0,
+        "title": "'Душевно Болен'. Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/h11rL0Nc8wI' title='&quot;Душевно Болен&quot;. Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 3,
+        "priority": 0,
+        "title": "'Где есть ты' Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/PmOov5CKWWg' title='&quot;Где есть ты&quot; Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 4,
+        "priority": 0,
+        "title": "'Научите' Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/YNT43TI5Lt8' title='&quot;Научите&quot; Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 5,
+        "priority": 0,
+        "title": "Планы. Разбор на гитаре. Владимир Клявин",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/ytJj0vEKmIQ' title='Планы. Разбор на гитаре. Владимир Клявин' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "title": "666 'Где есть ты' Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/PmOov5CKWWg' title='&quot;Где есть ты&quot; Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 7,
+        "priority": 2,
+        "title": "555 'Научите' Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/YNT43TI5Lt8' title='&quot;Научите&quot; Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 8,
+        "priority": 3,
+        "title": "444 Планы. Разбор на гитаре. Владимир Клявин",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/ytJj0vEKmIQ' title='Планы. Разбор на гитаре. Владимир Клявин' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 9,
+        "priority": 4,
+        "title": "333 'Где есть ты' Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/PmOov5CKWWg' title='&quot;Где есть ты&quot; Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 10,
+        "priority": 5,
+        "title": "222 'Научите' Владимир Клявин (Черновики 2021)",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/YNT43TI5Lt8' title='&quot;Научите&quot; Владимир Клявин (Черновики 2021)' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    },
+    {
+        "id": 11,
+        "priority": 6,
+        "title": "111 Планы. Разбор на гитаре. Владимир Клявин",
+        "frame": "<iframe width='1280' height='720' src='https://www.youtube.com/embed/ytJj0vEKmIQ' title='Планы. Разбор на гитаре. Владимир Клявин' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>"
+    }
+]

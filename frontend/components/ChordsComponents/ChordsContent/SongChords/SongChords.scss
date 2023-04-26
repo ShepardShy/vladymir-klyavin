@@ -1,0 +1,7 @@
+.chords__list {
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(4, 85px);
+    
+    margin-bottom: 40px;
+}

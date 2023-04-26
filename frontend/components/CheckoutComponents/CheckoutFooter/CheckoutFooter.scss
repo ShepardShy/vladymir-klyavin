@@ -1,0 +1,25 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.checkout__footer {
+    display: grid;
+    margin-top: 30px;
+
+    &::before {
+        content: '';
+        width: 100%;
+        border-top: 1px solid variables.$color-white;
+    }
+}
+.checkout__total {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.checkout__value {
+    color: variables.$color-white;
+    @include mixins.textOptions(25px, 500, 30px)
+}

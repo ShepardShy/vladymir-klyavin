@@ -1,0 +1,21 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.videos__item {
+    width: 445px;
+
+    .videos__frame {
+        height: 230px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        @include mixins.borderOptions(1px, solid, variables.$color-light-grey, 8px);
+        
+        iframe {
+            @include mixins.imageResolutionOptions(100% !important, 100% !important);
+        }
+    }
+
+    .videos__title {
+        @include mixins.textOptions(22px, 400, 140%);
+    }
+}

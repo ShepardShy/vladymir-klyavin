@@ -1,0 +1,15 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.song__chord {
+    height: 85px;
+    overflow: hidden;
+    border-radius: 4px;
+    @include mixins.gridCenter();
+    background: variables.$color-white;
+
+    img {
+        object-fit: contain;
+        padding: 5px;
+    }
+}

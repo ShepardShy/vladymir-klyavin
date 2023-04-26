@@ -1,0 +1,21 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.cart__item {
+    .product__action {
+        place-self: end;
+    }
+    .product__cost {
+        text-align: end;
+        margin-bottom: 15px;
+        color: variables.$color-white;
+
+        @include mixins.textOptions(30px, 600, 37px);
+    }
+    .product__button {
+        border-width: 1px;
+        padding: 10px 25px;
+
+        @include mixins.textOptions(18px, 400, 22px);
+    }
+}

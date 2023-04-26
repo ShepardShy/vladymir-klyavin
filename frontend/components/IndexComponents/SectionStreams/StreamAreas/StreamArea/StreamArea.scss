@@ -1,0 +1,12 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.areas__item {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    @include mixins.textOptions(24px, 500, 29px)
+}
+.areas__icon {
+    @include mixins.imageResolutionOptions(40px, 40px)
+}

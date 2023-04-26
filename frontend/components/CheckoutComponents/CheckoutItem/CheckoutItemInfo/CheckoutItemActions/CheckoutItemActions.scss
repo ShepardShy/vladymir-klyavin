@@ -1,0 +1,33 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.checkout__item {
+    .product__actions {
+        grid-row: 1/4;
+        grid-column: 2/3;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .product__cost {
+        @include mixins.textOptions(20px, 400, 24px)
+    }
+    .product__quantity {
+        display: flex;
+        gap: 30px;
+        @include mixins.textOptions(24px, 500, 100.4%)
+    }
+    .product__total-cost {
+        @include mixins.textOptions(24px, 500, 29px)
+    }
+    
+    .product__delete {
+        cursor: pointer;
+        &::before {
+            content:url('/icons/delete.svg')
+        }
+    }
+}
+

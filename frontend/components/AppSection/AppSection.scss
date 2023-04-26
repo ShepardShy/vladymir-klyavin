@@ -1,0 +1,43 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+section {
+    position: relative;
+
+    &::before {
+        z-index: 2;
+        bottom: -1000px;
+        position: absolute;
+        
+        pointer-events: none;
+        @include mixins.imageResolutionOptions(100%, 1000px);
+    }
+
+    a {
+        &:hover {
+            color: variables.$color-orange
+        }
+    }
+}
+
+.section_dark {
+    background: variables.$color-black;
+
+    h1, h2, h3, h4, h5, h6, p, div, span, a {
+        color: variables.$color-white
+    }
+
+    &::before {
+        content: url('/decorations/dark_smoke.png');
+    }
+}
+
+.section_light {
+    h1, h2, h3, h4, h5, h6, p, div, span, a {
+        color: variables.$color-black
+    }
+
+    &::before {
+        content: url('/decorations/light_smoke.png');
+    }
+}

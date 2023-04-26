@@ -1,0 +1,10 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+p {
+    @include mixins.textOptions(20px, 400, 140.4%);
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

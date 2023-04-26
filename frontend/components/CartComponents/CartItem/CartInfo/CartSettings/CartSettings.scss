@@ -1,0 +1,9 @@
+.cart__item {
+    .product__settings {
+        display: grid;
+        grid-gap: 25px;
+        grid-template-columns: repeat(3, 180px);
+        
+        margin-top: 30px;
+    }
+}

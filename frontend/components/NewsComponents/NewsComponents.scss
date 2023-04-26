@@ -1,0 +1,18 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.news {
+    margin-bottom: 50px;
+    color: variables.$color-white;
+    
+    .novelty__img {
+        border: 1px solid variables.$color-white;
+    }
+}
+
+.news__header {
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+

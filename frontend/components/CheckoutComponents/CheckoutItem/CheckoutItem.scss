@@ -1,0 +1,13 @@
+@use '/assets/variables.scss' as variables;
+@use '/assets/mixins.scss' as mixins;
+
+.checkout__item {
+    color: #fff;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: 150px 1fr;
+
+    .product__image {
+        @include mixins.imageResolutionOptions(150px, 150px)
+    }
+}
